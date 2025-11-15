@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
 
-## Project info
+# AURA E-commerce
 
-**URL**: https://lovable.dev/projects/a3a95c1b-e0ca-40c4-878b-820585d9fc41
+A modern, clean, and responsive e-commerce storefront built with React, Vite, TypeScript, and shadcn/ui. This project serves as a template for a high-performance, aesthetically pleasing online store.
 
-## How can I edit this code?
+*(Note: Replace this with a screenshot of your actual application)*
 
-There are several ways of editing your application.
+## Features
 
-**Use Lovable**
+  - **Product Listing:** Browse a grid of available products from mock data.
+  - **Advanced Filtering:** Filter products by category, price range, and stock availability via a slide-out sidebar.
+  - **Live Search:** Instantly search across product names, descriptions, and categories.
+  - **Shopping Cart:** Add/remove items, update quantities, and clear the cart.
+  - **Local Storage Persistence:** The cart state is saved in `localStorage` using a custom hook (`useCart`).
+  - **Quick View:** View product details in a modal without leaving the page.
+  - **Responsive Design:** Fully responsive layout for desktop, tablet, and mobile devices.
+  - **Modern UI:** Built with the sleek, accessible components from **shadcn/ui**.
+  - **Toasts/Notifications:** Uses **Sonner** for user feedback on actions like adding to cart.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a3a95c1b-e0ca-40c4-878b-820585d9fc41) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+This project is built with a modern, type-safe stack:
 
-**Use your preferred IDE**
+  - **Framework:** [React](https://react.dev/)
+  - **Bundler:** [Vite](https://vitejs.dev/)
+  - **Language:** [TypeScript](https://www.typescriptlang.org/)
+  - **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+  - **UI Components:** [shadcn/ui](https://ui.shadcn.com/) (which uses Radix UI & Vaul)
+  - **Routing:** [React Router](https://reactrouter.com/)
+  - **Form Management:** [React Hook Form](https://react-hook-form.com/)
+  - **Schema Validation:** [Zod](https://zod.dev/)
+  - **Icons:** [Lucide React](https://lucide.dev/)
+  - **Notifications:** [Sonner](https://www.google.com/search?q=https://sonner.emilkowal.ski/)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-Follow these steps:
+### Prerequisites
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Make sure you have [Node.js](https://nodejs.org/) (v18 or newer recommended) and [npm](https://www.npmjs.com/) installed on your machine.
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Installation
 
-# Step 3: Install the necessary dependencies.
-npm i
+1.  **Clone the repository:**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+    ```bash
+    git clone https://github.com/nallarahul/aura-ecommerce.git
+    ```
 
-**Edit a file directly in GitHub**
+2.  **Navigate to the project directory:**
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+    ```bash
+    cd aura-ecommerce
+    ```
 
-**Use GitHub Codespaces**
+3.  **Install the dependencies:**
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+    ```bash
+    npm install
+    ```
 
-## What technologies are used for this project?
+4.  **Run the development server:**
 
-This project is built with:
+    ```bash
+    npm run dev
+    ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+The application will be available at `http://localhost:8080`.
 
-## How can I deploy this project?
+## Available Scripts
 
-Simply open [Lovable](https://lovable.dev/projects/a3a95c1b-e0ca-40c4-878b-820585d9fc41) and click on Share -> Publish.
+In the project directory, you can run the following commands:
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+  - `npm run dev`: Starts the development server with auto-reloading.
+  - `npm run build`: Builds the app for production to the `dist` folder.
+  - `npm run preview`: Serves the production build locally to preview it.
+  - `npm run lint`: Lints the codebase using ESLint and TypeScript.
